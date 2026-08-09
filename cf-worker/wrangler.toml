@@ -1,0 +1,10 @@
+name = "gheymat-morabba-prices"
+main = "src/worker.js"
+compatibility_date = "2026-01-01"
+
+[triggers]
+crons = ["*/2 * * * *"]
+
+[[kv_namespaces]]
+binding = "PRICES"
+id = "eb48dc75de7f4f3c8af92d865f85c0bb"
